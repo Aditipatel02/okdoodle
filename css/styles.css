@@ -1,0 +1,172 @@
+
+h1{
+font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+#title{
+    font-family: 'Ubuntu', sans-serif;
+     background-image: url("../images/images4.jpg") ;
+   
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 12%;
+ 
+    
+   
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+   padding:0rem 0rem 1.5rem;}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 200;
+   font-size: 1.2rem;
+}
+
+.Download-btn{
+    margin-top: 6%;
+    margin-right: 5%
+}
+.titimage{
+    border: 1px solid black;
+    box-shadow: 2px 3px 5px black;
+   border-radius:25px;
+   transform: rotate(20deg);
+  position: absolute;
+ z-index: 1;
+  right: 30%;
+   
+}
+
+#features{
+   
+ position: relative;
+
+   background-image: url("../images/images2.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    padding: 10% 10%;
+}
+.col-lg-4{
+    text-align: center;
+    
+}
+.fas{
+    padding-bottom: 25px;
+}
+.fas:hover{
+    opacity: 60%;
+}
+
+h3{
+    font-weight: 800;
+    font-size:1.5rem ;
+}
+.col-lg-4 p{
+    font-weight: .5rem;
+    font-size: 1rem;
+    color:#9BA695;
+}
+#testimonials{
+
+text-align: center;
+color:black;
+background-color:#c9c9c9;
+/* background-image: url(../images/design.jpg);
+background-size: 100% ; */
+
+}
+
+.testimage{
+   width:100px;
+   height: 90px;
+   border-radius: 100%;
+   margin: 5%;
+    
+}
+h2{
+    
+    font-size: 2rem;
+font-weight: bold;
+}
+#press{
+   
+text-align: center;
+color:black;
+background-color:#c9c9c9;
+/* background-image: url(../images/images12.jpg);
+background-size: 100% ; */
+
+}
+.prees{
+    width: 100px;
+    height: 90px;
+   margin: 0% 5% 3% 5%;
+}
+
+.carousel-item{
+    padding: 5% 20%;
+}
+#pricing{
+  
+   
+    text-align: center;
+    background-image: url(../images/pricing.jpg);
+    background-size: cover;
+}
+.card{
+    margin: 10%;
+}
+@media (max-width:1030px){
+    .titimage{
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 30px;
+    }
+        #title{
+text-align: center;
+        }
+    
+    h1{
+        
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+}
+
+#cta{
+    text-align: center;
+    background-color: #DBCCB2;
+    color: #36322B;
+    padding: 10% 25%;
+    /* background-image: url(../images/footer.jpg);
+    background-size: 100% 100%; */
+}
+#cta >h3{
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
+#footer{
+    background-color: rgb(104, 99, 91);
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10% 10%;
+}
+.icon-last{
+    font-size: 1rem;
+  padding: 0% 1%;
+}
